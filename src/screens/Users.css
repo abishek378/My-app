@@ -1,0 +1,36 @@
+.users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 80px;
+}
+
+
+.users > table{
+    width:100%;
+    text-align: center;
+    height:auto;
+    border:1px solid;
+    border: none ;
+}
+
+.users > table > thead {
+   color:white;
+}
+
+th{
+    background-color: rgb(93, 93, 93);
+    height: 30px;
+}
+
+tr{
+    background-color: aliceblue;
+}
+
+td{
+    color:black;
+    font-size: medium;
+    padding: 5px;
+    
+}
+

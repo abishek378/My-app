@@ -1,0 +1,39 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,rgba(0, 255, 255, 0.664) 30%,grey);
+    height:140px;
+    /* mask-image: linear-gradient(to bottom ,rgba(0,0,0,1),rgba(100,100,100,.5)); */
+    /* z-index: -1; */
+    /* position: sticky;
+     top:0;
+    z-index: 100;  */
+}
+
+
+nav > h1{
+    font-size: 40px;
+    color:rgba(58, 58, 58, 0.974);
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(117, 95, 95); */
+    width:30%;
+}
+
+
+ul > a{
+    font-size: 20px;
+    text-decoration: none;
+color:aliceblue;
+font-weight: 700;
+}
+
+
+ul > a:hover{
+    color:rgba(0, 0,0,.6);
+}
